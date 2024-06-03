@@ -1,4 +1,4 @@
-# webstax [we'relive](https://main--webstaxx.netlify.app/)
+# webstax [we're live](https://main--webstaxx.netlify.app/)
 ## agency services
 - full stack development
 - figma 
