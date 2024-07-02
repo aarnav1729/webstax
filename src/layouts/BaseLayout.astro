@@ -7,6 +7,21 @@ import Footer from "@/components/global/Footer.astro";
 <html lang="en" class="selection:bg-carrot selection:text-white">
   <head>
     <BaseHead />
+    <script async src="https://tally.so/widgets/embed.js"></script>
+    <script>
+        window.TallyConfig = {
+            "formId": "nrEDgN",
+            "popup": {
+                "emoji": {
+                    "text": "👋",
+                    "animation": "wave"
+                },
+                "overlay": true,
+                "autoClose": 3000,
+                "doNotShowAfterSubmit": true
+            }
+        };
+    </script>
   </head>
   <body class="mx-auto bg-black 2xl:max-w-7xl">
     <Navigation />
