@@ -7,36 +7,10 @@ import Services from "@/components/landing/Services.astro";
 import Cta from "@/components/landing/Cta.astro";
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>webstax</title>
-    <link rel="stylesheet" href="/global.css" />
-    <script async src="https://tally.so/widgets/embed.js"></script>
-    <script>
-      window.TallyConfig = {
-        formId: "nrEDgN",
-        popup: {
-          emoji: {
-            text: "👋",
-            animation: "wave",
-          },
-          overlay: true,
-          autoClose: 3000,
-          doNotShowAfterSubmit: true,
-        },
-      };
-    </script>
-  </head>
-  <body>
-    <BaseLayout>
-      <Hero />
-      <Work />
-      <Intro />
-      <Services />
-      <Cta />
-    </BaseLayout>
-  </body>
-</html>
+<BaseLayout>
+  <Hero />
+  <Work />
+  <Intro />
+  <Services />
+  <Cta />
+</BaseLayout>
