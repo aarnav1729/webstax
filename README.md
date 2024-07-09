@@ -32,6 +32,7 @@ Webstax is a modern web application built using [Astro](https://astro.build), a 
 
 ### Project Structure
 Skeleton of the Webstax website:
+'''markdown
 /
 ├── public/
 │   ├── avatars/
