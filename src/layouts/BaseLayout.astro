@@ -10,6 +10,12 @@ import Footer from "@/components/global/Footer.astro";
     <meta name="google-site-verification" content="6eeNhseCHELUkqfOR0FBJKSl5kNbtJYUblacRCL1-fI" />
     <meta name="description" content="Webstax Inc. - Expert web development services designed and built in Minnesota. Contact us today to learn more about our innovative solutions.">
     <link rel="canonical" href="https://webstaxx.netlify.app/" title="webstax" />
+    <link rel="preload" href="/fonts/font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/font.woff" as="font" type="font/woff" crossorigin="anonymous">    
+    <link rel="preload" href="/src/styles/global.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/src/styles/global.css"></noscript>
+
+
     <link rel="icon" href="/favicon_io/favicon.ico" type="image/x-icon" />
     <BaseHead />
     <script async src="https://tally.so/widgets/embed.js"></script>
